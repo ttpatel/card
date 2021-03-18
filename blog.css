@@ -1,0 +1,71 @@
+
+
+
+#innerbody{
+    color: black
+   
+}
+
+body
+{
+padding: 0;
+    background: rgb(175, 175, 175);
+}
+
+.container{
+    margin-top:150px;
+    padding: 0;
+    width: 50%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    /* border: 2px solid rgb(133, 133, 133); */
+    justify-content: center
+}   
+
+ .imgBx{
+     position: relative;
+width: 50%;
+height: 100%;
+background: rgb(227, 240, 240);
+
+}
+.imgBx img{
+    position: relative;
+    width: 100%;
+}
+
+.imgBx img:nth-child(1){
+    width:30%;
+    margin-left:-15px;
+    margin-top: -19px;
+}
+.imgBx img:nth-child(2){
+position: relative;
+
+width: 155%;
+transform: rotate(-40deg);
+margin-left:-170px;
+
+/* margin-right:-10%; */
+}
+
+.details{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50%;
+height: 100%;
+box-sizing: border-box;
+padding: 40px;
+    
+}
+
+#nike{
+font-size: 29px;
+font-weight: 750;
+}
+
+.btn{
+
+    margin-top: 22px;
+}
