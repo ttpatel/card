@@ -25,7 +25,7 @@ function loadUsers() {
             0${users[j].id}
             </h6>
             <div class="card-title">
-           <a href='blogdetails.html?id=${users[j].id}&body=${users[j].body}'> ${users[j].title}
+           <a href=blogdetails.html?id=${users[j].id}> ${users[j].title}
            </a>
           
             </div>

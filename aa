@@ -1,0 +1,21 @@
+let url = window.location.search;
+let queries = new URLSearchParams(url);
+
+let id = queries.get("id");
+
+console.log('id =>', id);
+
+var xhr = new XMLHttpRequest();
+xhr.open('GEt', `https://jsonplaceholder.typicode.com/posts/${id}`, true);
+
+xhr.onload = function () {
+
+  if (this.status == 200) {
+    const user = JSON.parse(this.responseText);
+    console.log('users => ', user)
+    let output = '';
+
+    output = `
+        <div  id="nike">NIKE AIR MAX 270</div>
+
+        <div class="display" id="why"
